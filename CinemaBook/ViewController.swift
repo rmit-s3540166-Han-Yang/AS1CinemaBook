@@ -22,5 +22,12 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func SideBar(_ sender: Any) {
+        if self.leftspace.constant == 0{
+            self.leftspace.constant = 118
+        }else{
+            self.leftspace.constant = 0
+        }
+    }
 }
 

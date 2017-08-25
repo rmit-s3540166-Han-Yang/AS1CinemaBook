@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36676D191F505541007E407F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36676D181F505541007E407F /* ListViewController.swift */; };
 		36EC47FC1F501F2300F8D29C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC47FB1F501F2300F8D29C /* AppDelegate.swift */; };
 		36EC47FE1F501F2300F8D29C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC47FD1F501F2300F8D29C /* ViewController.swift */; };
 		36EC48011F501F2300F8D29C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EC47FF1F501F2300F8D29C /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36676D181F505541007E407F /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		36EC47F81F501F2300F8D29C /* CinemaBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinemaBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36EC47FB1F501F2300F8D29C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36EC47FD1F501F2300F8D29C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				36EC47FB1F501F2300F8D29C /* AppDelegate.swift */,
 				36EC47FD1F501F2300F8D29C /* ViewController.swift */,
+				36676D181F505541007E407F /* ListViewController.swift */,
 				36EC47FF1F501F2300F8D29C /* Main.storyboard */,
 				36EC48021F501F2300F8D29C /* Assets.xcassets */,
 				36EC48041F501F2300F8D29C /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				36EC47FE1F501F2300F8D29C /* ViewController.swift in Sources */,
 				36EC47FC1F501F2300F8D29C /* AppDelegate.swift in Sources */,
+				36676D191F505541007E407F /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				36EC48221F501F2300F8D29C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36EC48231F501F2300F8D29C /* Build configuration list for PBXNativeTarget "CinemaBookTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				36EC48251F501F2300F8D29C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36EC48261F501F2300F8D29C /* Build configuration list for PBXNativeTarget "CinemaBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				36EC48281F501F2300F8D29C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
