@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var leftspace: NSLayoutConstraint!
 
     override func viewDidLoad() {
         super.viewDidLoad()
