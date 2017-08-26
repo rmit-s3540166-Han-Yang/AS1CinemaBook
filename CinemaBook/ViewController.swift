@@ -33,6 +33,9 @@ class ViewController: UIViewController {
         }else{
             self.leftspace.constant = 0
         }
+        UIView.animate(withDuration: 0.3){
+            self.view.layoutIfNeeded()
+        }
     }
 }
 
