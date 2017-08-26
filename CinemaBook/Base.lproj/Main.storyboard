@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Menu-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CinemaBook" customModuleProvider="target" sceneMemberID="viewController">
@@ -49,13 +49,14 @@
                             <constraint firstItem="g0j-NC-eDv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xeX-f8-DZ8"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="1zx-uv-024" propertyAccessControl="none">
-                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="action" id="sm3-qs-c2g">
+                    <navigationItem key="navigationItem" title="Menu" id="1zx-uv-024" propertyAccessControl="none">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="if_menu-alt_134216" style="plain" id="sm3-qs-c2g">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="SideBar:" destination="BYZ-38-t0r" id="rHi-IV-JTj"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="search" id="xcb-TX-pg9"/>
                     </navigationItem>
                     <connections>
                         <outlet property="leftspace" destination="xeX-f8-DZ8" id="Kzh-B6-L81"/>
@@ -145,4 +146,7 @@
             <point key="canvasLocation" x="49" y="46"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="if_menu-alt_134216" width="28" height="28"/>
+    </resources>
 </document>
