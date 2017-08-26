@@ -44,6 +44,7 @@ extension ListViewController : UITableViewDataSource{
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         let cell = tableView.dequeueReusableCell(withIdentifier: "FirstLink", for: indexPath)
+        cell.textLabel?.text = self.titles[indexPath.row]
         return cell
     }
     
