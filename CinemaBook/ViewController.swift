@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         //setupNavBarItems()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
    // private func setupNavBarItems(){
        // _ = UIImageView(image: #imageLiteral(resourceName: "Capture1"))
