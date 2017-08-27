@@ -84,7 +84,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Capture2 copy" translatesAutoresizingMaskIntoConstraints="NO" id="Gsn-LX-MfH">
-                                <rect key="frame" x="65" y="28" width="245" height="250"/>
+                                <rect key="frame" x="65" y="98" width="245" height="180"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.059605572920000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -94,8 +94,12 @@
                             <constraint firstItem="6NG-Uz-gfj" firstAttribute="top" secondItem="Gsn-LX-MfH" secondAttribute="bottom" constant="79" id="C5m-Sp-OLu"/>
                             <constraint firstItem="PHA-yt-G7E" firstAttribute="top" secondItem="6NG-Uz-gfj" secondAttribute="bottom" id="NPQ-GH-15R"/>
                             <constraint firstAttribute="trailing" secondItem="6NG-Uz-gfj" secondAttribute="trailing" id="Nq9-F8-Da8"/>
+                            <constraint firstItem="6NG-Uz-gfj" firstAttribute="top" secondItem="Gsn-LX-MfH" secondAttribute="bottom" constant="79" id="cjD-l1-sXt"/>
                             <constraint firstItem="6NG-Uz-gfj" firstAttribute="leading" secondItem="nGf-cG-kN2" secondAttribute="leading" id="exp-nS-CQz"/>
+                            <constraint firstItem="Gsn-LX-MfH" firstAttribute="leading" secondItem="nGf-cG-kN2" secondAttribute="leadingMargin" constant="49" id="fMt-O8-6BY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Gsn-LX-MfH" secondAttribute="trailing" constant="49" id="lui-hV-Doj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Gsn-LX-MfH" secondAttribute="trailing" constant="49" id="vJu-Ut-GbZ"/>
+                            <constraint firstItem="Gsn-LX-MfH" firstAttribute="top" secondItem="LnE-aF-BOZ" secondAttribute="bottom" constant="78" id="wTi-2v-vdh"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -197,7 +201,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Capture2 copy" width="301" height="250"/>
+        <image name="Capture2 copy" width="150" height="125"/>
         <image name="if_menu-alt_134216" width="28" height="28"/>
     </resources>
     <inferredMetricsTieBreakers>
