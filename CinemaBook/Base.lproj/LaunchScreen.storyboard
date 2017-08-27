@@ -22,14 +22,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Capture1" translatesAutoresizingMaskIntoConstraints="NO" id="VpN-39-EiR">
-                                <rect key="frame" x="16" y="203" width="343" height="183"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Capture2" translatesAutoresizingMaskIntoConstraints="NO" id="VpN-39-EiR">
+                                <rect key="frame" x="16" y="203" width="343" height="260"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="VpN-39-EiR" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="183" id="3qv-SI-eu5"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="VpN-39-EiR" secondAttribute="bottom" constant="281" id="ORA-9m-Afq"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="VpN-39-EiR" secondAttribute="bottom" constant="204" id="ORA-9m-Afq"/>
                             <constraint firstAttribute="trailingMargin" secondItem="VpN-39-EiR" secondAttribute="trailing" id="bVb-X6-eWf"/>
                             <constraint firstItem="VpN-39-EiR" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="zqy-Z7-LS2"/>
                         </constraints>
@@ -41,6 +41,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Capture1" width="47" height="38"/>
+        <image name="Capture2" width="351" height="287"/>
     </resources>
 </document>
