@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -75,14 +76,63 @@
                         <viewControllerLayoutGuide type="bottom" id="PHA-yt-G7E"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nGf-cG-kN2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6NG-Uz-gfj">
+                                <rect key="frame" x="0.0" y="357" width="375" height="310"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Capture2 copy" translatesAutoresizingMaskIntoConstraints="NO" id="Gsn-LX-MfH">
+                                <rect key="frame" x="65" y="28" width="245" height="250"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.059605572920000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gsn-LX-MfH" firstAttribute="leading" secondItem="nGf-cG-kN2" secondAttribute="leadingMargin" constant="49" id="1bV-JD-iCY"/>
+                            <constraint firstItem="6NG-Uz-gfj" firstAttribute="top" secondItem="LnE-aF-BOZ" secondAttribute="bottom" constant="337" id="4uo-UA-mcg"/>
+                            <constraint firstItem="6NG-Uz-gfj" firstAttribute="top" secondItem="Gsn-LX-MfH" secondAttribute="bottom" constant="79" id="C5m-Sp-OLu"/>
+                            <constraint firstItem="PHA-yt-G7E" firstAttribute="top" secondItem="6NG-Uz-gfj" secondAttribute="bottom" id="NPQ-GH-15R"/>
+                            <constraint firstAttribute="trailing" secondItem="6NG-Uz-gfj" secondAttribute="trailing" id="Nq9-F8-Da8"/>
+                            <constraint firstItem="6NG-Uz-gfj" firstAttribute="leading" secondItem="nGf-cG-kN2" secondAttribute="leading" id="exp-nS-CQz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Gsn-LX-MfH" secondAttribute="trailing" constant="49" id="vJu-Ut-GbZ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dfd-BR-FUm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1785" y="123"/>
+            <point key="canvasLocation" x="1784.8" y="122.78860569715144"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="92A-8u-11X">
+            <objects>
+                <tableViewController id="eXs-aM-M9G" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="7Bs-hB-Blp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="feW-JZ-wIb">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="feW-JZ-wIb" id="dlM-kb-kQ7">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eXs-aM-M9G" id="ckB-Zd-npW"/>
+                            <outlet property="delegate" destination="eXs-aM-M9G" id="vxH-sg-eHS"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <segue destination="4SP-GP-ce5" kind="show" id="4Wa-Qe-9ry"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tJu-en-EyR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2439" y="439"/>
         </scene>
         <!--List View Controller-->
         <scene sceneID="6sa-S1-wzg">
@@ -147,6 +197,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Capture2 copy" width="301" height="250"/>
         <image name="if_menu-alt_134216" width="28" height="28"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="4Wa-Qe-9ry"/>
+    </inferredMetricsTieBreakers>
 </document>
