@@ -10,6 +10,7 @@ import UIKit
 
 class TableViewCell1: UITableViewCell {
     
+   //@IBOutlet weak var movieText: UITextView!
     //@IBOutlet var movieImage: UIImageView!
     
     @IBOutlet weak var movieTitle: UILabel!

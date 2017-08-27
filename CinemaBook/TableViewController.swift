@@ -11,6 +11,7 @@ import UIKit
 struct cellData{
     let cell : Int!
     let text : String!
+    //let text2 : String!
     let image : UIImage!
     
 }
@@ -36,7 +37,7 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
             super.viewDidLoad()
     
-      arrayOfCellData = [cellData(cell : 1, text : "Test Movie", image : #imageLiteral(resourceName: "Capture1"))]
+        arrayOfCellData = [cellData(cell : 1, text : "Test Movie", image : #imageLiteral(resourceName: "Capture1"))]
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -49,7 +50,7 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
         let cell = Bundle.main.loadNibNamed("TableViewCell1", owner: self, options: nil)?.first as! TableViewCell1
             cell.movieTitle.text = arrayOfCellData[indexPath.row].text
             cell.movieImage.image = arrayOfCellData[indexPath.row].image
-           // cell.movieText.text = arrayOfCellData[indexPath.row].text
+            //cell.movieText.text = arrayOfCellData[indexPath.row].text2
            
             return cell
         //}else{
@@ -63,7 +64,7 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
    // }
      func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         //if arrayOfCellData[indexPath.row].cell == 1{
-            //return 125
+            return 250
         //}else{
       //      return 125
         //}
