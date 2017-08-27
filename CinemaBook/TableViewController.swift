@@ -28,16 +28,28 @@ class TableViewController: UITableViewController {
         return arrayOfCellData.count
         
     }
-    override func tableView(_ tableView: UITableView, cellForRowAt IndexPath) -> UITableViewCell{
-        if arrayOfCellData[IndexPath.row].cell == 1{
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
+        if arrayOfCellData[indexPath.row].cell == 1{
             let cell = Bundle.main.loadNibNamed("TableViewCell1", owner: self, options: nil)?.first as! TableViewCell1
             
-            cell.movieImage.image = arrayOfCellData[]
+            cell.movieImage.image = arrayOfCellData[indexPath.row].image
+            cell.movieText.text = arrayOfCellData[indexPath.row].text
+            cell.movieTitle.text = arrayOfCellData[indexPath.row].text
+            return cell
         }else{
+            let cell = Bundle.main.loadNibNamed("TableViewCell1", owner: self, options: nil)?.first as! TableViewCell1
             
+            cell.movieImage.image = arrayOfCellData[indexPath.row].image
+            cell.movieText.text = arrayOfCellData[indexPath.row].text
+            cell.movieTitle.text = arrayOfCellData[indexPath.row].text
+            return cell
         }
     }
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        <#code#>
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        if arrayOfCellData[indexPath.row].cell == 1{
+            return 125
+        }else{
+            return 125
+        }
     }
 }

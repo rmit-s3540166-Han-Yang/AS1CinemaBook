@@ -129,7 +129,7 @@
                                         <rect key="frame" x="0.0" y="28" width="118" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Byf-H6-e19" id="5gO-Q5-G4B">
-                                            <rect key="frame" x="0.0" y="0.0" width="118" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="118" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -173,6 +173,10 @@
         <scene sceneID="Mx8-nP-EQC">
             <objects>
                 <viewController id="Eyx-Yi-KWE" customClass="TableViewController" customModule="CinemaBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jWf-1I-ZmR"/>
+                        <viewControllerLayoutGuide type="bottom" id="K4N-bp-q7Y"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="CqU-hs-VTE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="315"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -186,7 +190,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2FQ-jr-uow" id="4Yp-5s-EK3">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
