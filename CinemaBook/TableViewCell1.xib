@@ -32,33 +32,16 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KaF-qD-4nh">
-                        <rect key="frame" x="133" y="44" width="179" height="72"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
-                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                    </textView>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="bottomMargin" secondItem="KaF-qD-4nh" secondAttribute="bottom" constant="0.5" id="0EI-rU-oc5"/>
                     <constraint firstAttribute="trailingMargin" secondItem="B04-Jx-uEl" secondAttribute="trailing" constant="11" id="0lm-Sc-VlS"/>
-                    <constraint firstItem="KaF-qD-4nh" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="DPT-Z9-46a"/>
                     <constraint firstItem="neU-RS-of8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Ead-xL-5sT"/>
                     <constraint firstItem="B04-Jx-uEl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="HAb-nG-ikX"/>
-                    <constraint firstItem="KaF-qD-4nh" firstAttribute="leading" secondItem="neU-RS-of8" secondAttribute="trailing" constant="8" id="L47-BG-TRk"/>
-                    <constraint firstItem="KaF-qD-4nh" firstAttribute="top" secondItem="B04-Jx-uEl" secondAttribute="bottom" constant="8" id="P42-d5-ZcE"/>
-                    <constraint firstItem="KaF-qD-4nh" firstAttribute="top" secondItem="B04-Jx-uEl" secondAttribute="bottom" constant="15.5" id="Rn4-Nj-vk3"/>
                     <constraint firstAttribute="bottom" secondItem="neU-RS-of8" secondAttribute="bottom" id="Z9y-1X-yZ3"/>
                     <constraint firstItem="B04-Jx-uEl" firstAttribute="leading" secondItem="neU-RS-of8" secondAttribute="trailing" constant="8" id="jaW-V3-0cq"/>
                     <constraint firstItem="neU-RS-of8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="w7d-TA-fX4"/>
                 </constraints>
             </tableViewCellContentView>
-            <connections>
-                <outlet property="movieImage" destination="neU-RS-of8" id="2s8-hu-Q6L"/>
-                <outlet property="movieText" destination="KaF-qD-4nh" id="Hwy-ig-tpL"/>
-                <outlet property="movieTitle" destination="B04-Jx-uEl" id="Shc-WT-XiS"/>
-            </connections>
             <point key="canvasLocation" x="25" y="-4.5"/>
         </tableViewCell>
     </objects>

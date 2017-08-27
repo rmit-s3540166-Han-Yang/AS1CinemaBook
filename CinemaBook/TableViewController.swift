@@ -15,41 +15,55 @@ struct cellData{
     
 }
 
-class TableViewController: UITableViewController {
-    var arrayOfCellData = [cellData]()
+class TableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    let list = ["Milk","Honey"]
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        return(list.count)
+    }
+    
+
+
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
+        let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell")
+        cell.textLabel?.text = list[indexPath.row]
+        return(cell)
+    }
+
+   // var arrayOfCellData = [cellData]()
     
     override func viewDidLoad() {
-        arrayOfCellData = [cellData(cell : 1, text : "", image : #imageLiteral(resourceName: "Capture2 copy")),
-        cellData(cell : 1, text : "", image : #imageLiteral(resourceName: "Capture2 copy")),
-        cellData(cell : 1, text : "", image : #imageLiteral(resourceName: "Capture2 copy"))]
+            super.viewDidLoad()
     }
+      //  arrayOfCellData = [cellData(cell : 1, text : "Test Movie", image : #imageLiteral(resourceName: "Capture1"))]
+    //}
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return arrayOfCellData.count
+    //override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        //return arrayOfCellData.count
         
-    }
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
-        if arrayOfCellData[indexPath.row].cell == 1{
-            let cell = Bundle.main.loadNibNamed("TableViewCell1", owner: self, options: nil)?.first as! TableViewCell1
+    //}
+    //override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
+        //if arrayOfCellData[indexPath.row].cell == 1{
+      //  let cell = Bundle.main.loadNibNamed("TableViewCell1", owner: self, options: nil)?.first as! TableViewCell1
+            //cell.movieTitle.text = arrayOfCellData[indexPath.row].text
+           // cell.movieImage.image = arrayOfCellData[indexPath.row].image
+            //cell.movieText.text = arrayOfCellData[indexPath.row].text
+           
+        //    return cell
+        //}else{
+            //let cell = Bundle.main.loadNibNamed("TableViewCell1", owner: self, options: nil)?.first as! TableViewCell1
+            //cell.movieTitle.text = arrayOfCellData[indexPath.row].text
+           // cell.movieImage.image = arrayOfCellData[indexPath.row].image
+            //cell.movieText.text = arrayOfCellData[indexPath.row].text
             
-            cell.movieImage.image = arrayOfCellData[indexPath.row].image
-            cell.movieText.text = arrayOfCellData[indexPath.row].text
-            cell.movieTitle.text = arrayOfCellData[indexPath.row].text
-            return cell
-        }else{
-            let cell = Bundle.main.loadNibNamed("TableViewCell1", owner: self, options: nil)?.first as! TableViewCell1
-            
-            cell.movieImage.image = arrayOfCellData[indexPath.row].image
-            cell.movieText.text = arrayOfCellData[indexPath.row].text
-            cell.movieTitle.text = arrayOfCellData[indexPath.row].text
-            return cell
-        }
-    }
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        if arrayOfCellData[indexPath.row].cell == 1{
-            return 125
-        }else{
-            return 125
-        }
-    }
+           // return cell
+        //}
+   // }
+    //override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        //if arrayOfCellData[indexPath.row].cell == 1{
+            //return 125
+        //}else{
+      //      return 125
+        //}
+    //}
 }
