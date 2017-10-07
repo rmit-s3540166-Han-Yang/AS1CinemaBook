@@ -9,7 +9,7 @@
 import UIKit
 
 class ListViewController: UIViewController {
-    let titles = ["Movies"]
+    let titles = [" "]
     var myIndex = 0
     override func viewDidLoad() {
         super.viewDidLoad()
