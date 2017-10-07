@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CB88E41331DF173F8F13638 /* libPods-CinemaBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC76863DC87580DAAE41322A /* libPods-CinemaBook.a */; };
 		36676D191F505541007E407F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36676D181F505541007E407F /* ListViewController.swift */; };
 		36AC1CDE1F52D96700619ABE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC1CDD1F52D96700619ABE /* TableViewController.swift */; };
 		36AC1CE01F52DE4F00619ABE /* TableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36AC1CDF1F52DE4F00619ABE /* TableViewCell1.xib */; };
@@ -18,6 +19,7 @@
 		36EC48061F501F2300F8D29C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EC48041F501F2300F8D29C /* LaunchScreen.storyboard */; };
 		36EC48111F501F2300F8D29C /* CinemaBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC48101F501F2300F8D29C /* CinemaBookTests.swift */; };
 		36EC481C1F501F2300F8D29C /* CinemaBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC481B1F501F2300F8D29C /* CinemaBookUITests.swift */; };
+		853CC1371F88DF4E0040815E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 853CC1361F88DF4E0040815E /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		36EC48171F501F2300F8D29C /* CinemaBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinemaBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36EC481B1F501F2300F8D29C /* CinemaBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaBookUITests.swift; sourceTree = "<group>"; };
 		36EC481D1F501F2300F8D29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754FA4703D01D64C41CBEDEE /* Pods-CinemaBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinemaBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-CinemaBook/Pods-CinemaBook.release.xcconfig"; sourceTree = "<group>"; };
+		853CC1361F88DF4E0040815E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		BF8C13CA7E6D1AB85F7D591C /* Pods-CinemaBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinemaBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CinemaBook/Pods-CinemaBook.debug.xcconfig"; sourceTree = "<group>"; };
+		DC76863DC87580DAAE41322A /* libPods-CinemaBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CinemaBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CB88E41331DF173F8F13638 /* libPods-CinemaBook.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,10 +92,13 @@
 		36EC47EF1F501F2300F8D29C = {
 			isa = PBXGroup;
 			children = (
+				853CC1361F88DF4E0040815E /* Podfile */,
 				36EC47FA1F501F2300F8D29C /* CinemaBook */,
 				36EC480F1F501F2300F8D29C /* CinemaBookTests */,
 				36EC481A1F501F2300F8D29C /* CinemaBookUITests */,
 				36EC47F91F501F2300F8D29C /* Products */,
+				754ACD53B4A0C21C59341530 /* Pods */,
+				5A5B7716D4020F2DFB183C38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +147,23 @@
 			path = CinemaBookUITests;
 			sourceTree = "<group>";
 		};
+		5A5B7716D4020F2DFB183C38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC76863DC87580DAAE41322A /* libPods-CinemaBook.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		754ACD53B4A0C21C59341530 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF8C13CA7E6D1AB85F7D591C /* Pods-CinemaBook.debug.xcconfig */,
+				754FA4703D01D64C41CBEDEE /* Pods-CinemaBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36EC48201F501F2300F8D29C /* Build configuration list for PBXNativeTarget "CinemaBook" */;
 			buildPhases = (
+				C04451C72F31E447C149BF2B /* [CP] Check Pods Manifest.lock */,
 				36EC47F41F501F2300F8D29C /* Sources */,
 				36EC47F51F501F2300F8D29C /* Frameworks */,
 				36EC47F61F501F2300F8D29C /* Resources */,
+				8981A407A923C25C6E32FE3E /* [CP] Embed Pods Frameworks */,
+				346821307C18DFD00A64EBDC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853CC1371F88DF4E0040815E /* Podfile in Resources */,
 				36EC48061F501F2300F8D29C /* LaunchScreen.storyboard in Resources */,
 				36EC48031F501F2300F8D29C /* Assets.xcassets in Resources */,
 				36EC48011F501F2300F8D29C /* Main.storyboard in Resources */,
@@ -266,6 +297,61 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		346821307C18DFD00A64EBDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CinemaBook/Pods-CinemaBook-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CinemaBook/Pods-CinemaBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8981A407A923C25C6E32FE3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CinemaBook/Pods-CinemaBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C04451C72F31E447C149BF2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CinemaBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		36EC47F41F501F2300F8D29C /* Sources */ = {
@@ -428,6 +514,7 @@
 		};
 		36EC48211F501F2300F8D29C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8C13CA7E6D1AB85F7D591C /* Pods-CinemaBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CinemaBook/Info.plist;
@@ -440,6 +527,7 @@
 		};
 		36EC48221F501F2300F8D29C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754FA4703D01D64C41CBEDEE /* Pods-CinemaBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CinemaBook/Info.plist;
