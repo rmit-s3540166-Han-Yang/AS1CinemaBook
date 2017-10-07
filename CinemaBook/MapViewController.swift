@@ -21,6 +21,13 @@ class MapViewController: UIViewController {
         let mapView = GMSMapView.map(withFrame: .zero, camera: camera)
         mapView.isMyLocationEnabled = true
         self.view = mapView
+        
+        
+        let marker = GMSMarker()
+        marker.position = CLLocationCoordinate2D(latitude: -33, longitude: 151.20)
+        marker.title = "Sydney"
+        marker.snippet = "Australia"
+        marker.map = mapView
     }
 
     
