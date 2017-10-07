@@ -20,6 +20,7 @@
 		36EC48111F501F2300F8D29C /* CinemaBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC48101F501F2300F8D29C /* CinemaBookTests.swift */; };
 		36EC481C1F501F2300F8D29C /* CinemaBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC481B1F501F2300F8D29C /* CinemaBookUITests.swift */; };
 		853CC1371F88DF4E0040815E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 853CC1361F88DF4E0040815E /* Podfile */; };
+		857C3C851F88F32800FF2699 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857C3C841F88F32800FF2699 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		36EC481D1F501F2300F8D29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		754FA4703D01D64C41CBEDEE /* Pods-CinemaBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinemaBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-CinemaBook/Pods-CinemaBook.release.xcconfig"; sourceTree = "<group>"; };
 		853CC1361F88DF4E0040815E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		857C3C841F88F32800FF2699 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BF8C13CA7E6D1AB85F7D591C /* Pods-CinemaBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinemaBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CinemaBook/Pods-CinemaBook.debug.xcconfig"; sourceTree = "<group>"; };
 		DC76863DC87580DAAE41322A /* libPods-CinemaBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CinemaBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -125,6 +127,7 @@
 				36AC1CE11F52DE6000619ABE /* TableViewCell1.swift */,
 				36AC1CDF1F52DE4F00619ABE /* TableViewCell1.xib */,
 				36EC48071F501F2300F8D29C /* Info.plist */,
+				857C3C841F88F32800FF2699 /* MapViewController.swift */,
 			);
 			path = CinemaBook;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36AC1CE21F52DE6000619ABE /* TableViewCell1.swift in Sources */,
+				857C3C851F88F32800FF2699 /* MapViewController.swift in Sources */,
 				36EC47FE1F501F2300F8D29C /* ViewController.swift in Sources */,
 				36EC47FC1F501F2300F8D29C /* AppDelegate.swift in Sources */,
 				36676D191F505541007E407F /* ListViewController.swift in Sources */,
