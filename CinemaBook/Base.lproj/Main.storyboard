@@ -121,7 +121,7 @@
                                 <rect key="frame" x="65" y="42" width="245" height="250"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="lCg-WP-AEV" firstAttribute="top" secondItem="Gsn-LX-MfH" secondAttribute="bottom" constant="121" id="Nki-2c-Ye6"/>
                             <constraint firstItem="PHA-yt-G7E" firstAttribute="top" secondItem="lCg-WP-AEV" secondAttribute="bottom" id="VOH-9l-1y8"/>
@@ -340,6 +340,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="315"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="2FQ-jr-uow">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
