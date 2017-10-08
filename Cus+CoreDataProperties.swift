@@ -7,8 +7,6 @@
 //
 
 import Foundation
-import CoreData
-import UIKit
 
 
 extension Cus {
@@ -72,7 +70,7 @@ private func getCusFromCoreData()
         let results = try managedContext.fetch(fetchRequest)
         cusdb = results as! [NSManagedObject]
     }
-    
+        
     catch let error as NSError {
         print ("Could not fetch \(error), \(error.userinfo)")
     }
@@ -95,8 +93,8 @@ func saveMovie (cusName: String, cusCinema: String, cusMovie: String, cusDate: S
         existing!.cusClass = cus_Class
         existing!.cusSeats = cus_Seats
     }
-    
-
+        
+        
     else
     {
         
@@ -137,7 +135,7 @@ override func prepare (for segue: UIStoryboardSegue, sender: Any?)
         if let selectedRowIndexPath = tableView.indexPathForSelectedRow
         {
             let cus = self.model.cusdb[selectedRowIndexPath.row]
-        detailsVC.currentCus = cus as? Cus
+            detailsVC.currentCus = cus as? Cus
         }
     }
 }
@@ -153,4 +151,3 @@ override func tableView(_ tableView: UITableVoew, commit editingStyle: UITableVi
     
     self.tableView .deleteRows(at: [indexPath], with: UITableViewRowAnimation .fade)
 }
-

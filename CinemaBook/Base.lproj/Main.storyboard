@@ -22,12 +22,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mjv-K1-YYn">
+                                <rect key="frame" x="0.0" y="44" width="118" height="603"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="QWr-hP-Y7C"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="IRc-01-8uC" kind="embed" id="Qyl-Zh-W1I"/>
+                                </connections>
+                            </containerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mi5-cy-HER">
                                 <rect key="frame" x="16" y="207" width="72" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Movies"/>
                                 <connections>
-                                    <segue destination="Cwc-wg-lhS" kind="show" id="FdD-0l-UQt"/>
+                                    <segue destination="Cwc-wg-lhS" kind="show" id="AYm-n7-2Wc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1E-Bh-8iC">
@@ -35,7 +45,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Booking"/>
                                 <connections>
-                                    <segue destination="mL6-DU-zkb" kind="show" id="iyi-SD-lt7"/>
+                                    <segue destination="mL6-DU-zkb" kind="show" id="HcZ-3t-XOq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AbC-WB-ECb">
@@ -54,16 +64,6 @@
                                     <segue destination="x4d-bD-l5J" kind="show" id="G20-28-QDS"/>
                                 </connections>
                             </button>
-                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mjv-K1-YYn">
-                                <rect key="frame" x="0.0" y="44" width="118" height="603"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="118" id="QWr-hP-Y7C"/>
-                                </constraints>
-                                <connections>
-                                    <segue destination="IRc-01-8uC" kind="embed" id="Qyl-Zh-W1I"/>
-                                </connections>
-                            </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g0j-NC-eDv">
                                 <rect key="frame" x="0.0" y="44" width="375" height="603"/>
                                 <connections>
@@ -247,9 +247,6 @@
                                 <rect key="frame" x="16" y="617" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="tQx-h3-Qvo"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Movies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ej-E7-w75">
                                 <rect key="frame" x="160" y="282" width="55" height="21"/>
@@ -269,7 +266,7 @@
         <!--View Controller-->
         <scene sceneID="jm6-s9-SAk">
             <objects>
-                <viewController id="DB4-sh-jxS" sceneMemberID="viewController">
+                <viewController id="DB4-sh-jxS" customClass="ViewController" customModule="CinemaBook" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ymY-CR-Bh2"/>
                         <viewControllerLayoutGuide type="bottom" id="w5f-U5-66m"/>
