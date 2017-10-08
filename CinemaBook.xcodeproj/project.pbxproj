@@ -20,6 +20,7 @@
 		36EC48111F501F2300F8D29C /* CinemaBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC48101F501F2300F8D29C /* CinemaBookTests.swift */; };
 		36EC481C1F501F2300F8D29C /* CinemaBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC481B1F501F2300F8D29C /* CinemaBookUITests.swift */; };
 		853CC1371F88DF4E0040815E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 853CC1361F88DF4E0040815E /* Podfile */; };
+		855F8F4E1F8A2A0700D6920A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 855F8F4C1F8A2A0700D6920A /* Model.xcdatamodeld */; };
 		857C3C851F88F32800FF2699 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857C3C841F88F32800FF2699 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		36EC481D1F501F2300F8D29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		754FA4703D01D64C41CBEDEE /* Pods-CinemaBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinemaBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-CinemaBook/Pods-CinemaBook.release.xcconfig"; sourceTree = "<group>"; };
 		853CC1361F88DF4E0040815E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		855F8F4D1F8A2A0700D6920A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		857C3C841F88F32800FF2699 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BF8C13CA7E6D1AB85F7D591C /* Pods-CinemaBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinemaBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CinemaBook/Pods-CinemaBook.debug.xcconfig"; sourceTree = "<group>"; };
 		DC76863DC87580DAAE41322A /* libPods-CinemaBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CinemaBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				853CC1361F88DF4E0040815E /* Podfile */,
+				855F8F4C1F8A2A0700D6920A /* Model.xcdatamodeld */,
 				36EC47FA1F501F2300F8D29C /* CinemaBook */,
 				36EC480F1F501F2300F8D29C /* CinemaBookTests */,
 				36EC481A1F501F2300F8D29C /* CinemaBookUITests */,
@@ -364,6 +367,7 @@
 				36AC1CE21F52DE6000619ABE /* TableViewCell1.swift in Sources */,
 				857C3C851F88F32800FF2699 /* MapViewController.swift in Sources */,
 				36EC47FE1F501F2300F8D29C /* ViewController.swift in Sources */,
+				855F8F4E1F8A2A0700D6920A /* Model.xcdatamodeld in Sources */,
 				36EC47FC1F501F2300F8D29C /* AppDelegate.swift in Sources */,
 				36676D191F505541007E407F /* ListViewController.swift in Sources */,
 				36AC1CDE1F52D96700619ABE /* TableViewController.swift in Sources */,
@@ -636,6 +640,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		855F8F4C1F8A2A0700D6920A /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				855F8F4D1F8A2A0700D6920A /* Model.xcdatamodel */,
+			);
+			currentVersion = 855F8F4D1F8A2A0700D6920A /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 36EC47F01F501F2300F8D29C /* Project object */;
 }
