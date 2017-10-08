@@ -37,7 +37,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Movies"/>
                                 <connections>
-                                    <segue destination="Cwc-wg-lhS" kind="show" id="AYm-n7-2Wc"/>
+                                    <segue destination="UfX-RZ-6fU" kind="show" id="1ZK-yu-yzy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1E-Bh-8iC">
@@ -45,7 +45,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Booking"/>
                                 <connections>
-                                    <segue destination="mL6-DU-zkb" kind="show" id="HcZ-3t-XOq"/>
+                                    <segue destination="47h-NT-bkw" kind="show" id="FLn-u6-OOe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AbC-WB-ECb">
@@ -53,7 +53,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Contact"/>
                                 <connections>
-                                    <segue destination="iRN-Wr-WdT" kind="show" id="F1k-Kb-52U"/>
+                                    <segue destination="kr2-4i-REC" kind="show" id="xHJ-rp-DYa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4N-ke-dTc">
@@ -61,7 +61,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Map"/>
                                 <connections>
-                                    <segue destination="x4d-bD-l5J" kind="show" id="G20-28-QDS"/>
+                                    <segue destination="eLU-zv-ybl" kind="show" id="fze-XT-hf1"/>
                                 </connections>
                             </button>
                             <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g0j-NC-eDv">
@@ -156,7 +156,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QPf-mY-XEt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-510" y="806"/>
+            <point key="canvasLocation" x="2526" y="-510"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lMy-t3-uk1">
@@ -174,9 +174,6 @@
                                 <rect key="frame" x="16" y="617" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="bAO-oA-ecZ"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74j-Ui-CKS">
                                 <rect key="frame" x="157" y="271" width="61" height="21"/>
@@ -191,7 +188,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mua-BA-WF7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="340" y="900"/>
+            <point key="canvasLocation" x="2526" y="-1260"/>
         </scene>
         <!--List View Controller-->
         <scene sceneID="6sa-S1-wzg">
@@ -214,7 +211,7 @@
                                         <rect key="frame" x="0.0" y="28" width="118" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Byf-H6-e19" id="5gO-Q5-G4B">
-                                            <rect key="frame" x="0.0" y="0.0" width="118" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="118" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -261,7 +258,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vOm-99-xA0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2186" y="884"/>
+            <point key="canvasLocation" x="1734" y="-1910"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jm6-s9-SAk">
@@ -520,7 +517,7 @@
                                 <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ceu-j9-w53" id="G9M-7j-JDX">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -580,7 +577,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2FQ-jr-uow" id="4Yp-5s-EK3">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.28151311528497414" green="0.016554617298577535" blue="0.0025468492941466887" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -599,12 +596,356 @@
             </objects>
             <point key="canvasLocation" x="2508" y="123"/>
         </scene>
+        <!--MovieMenu-->
+        <scene sceneID="13Q-aJ-S3w">
+            <objects>
+                <viewController title="MovieMenu" id="UfX-RZ-6fU" customClass="ViewController" customModule="CinemaBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gn5-EG-c8g"/>
+                        <viewControllerLayoutGuide type="bottom" id="6hH-sv-Hau"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gMV-dt-gpD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9qt-rh-dbm">
+                                <rect key="frame" x="0.0" y="44" width="118" height="603"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="Opp-nS-bjY"/>
+                                </constraints>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNL-HX-Sam">
+                                <rect key="frame" x="16" y="207" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Menu"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="94R-nE-1dX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfK-sZ-Mtx">
+                                <rect key="frame" x="16" y="266" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Booking"/>
+                                <connections>
+                                    <segue destination="47h-NT-bkw" kind="show" id="v53-Er-eut"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U4k-nu-0n2">
+                                <rect key="frame" x="16" y="318" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Contact"/>
+                                <connections>
+                                    <segue destination="kr2-4i-REC" kind="show" id="9hD-R0-NSA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qwX-sA-p9Z">
+                                <rect key="frame" x="37" y="364" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Map"/>
+                                <connections>
+                                    <segue destination="eLU-zv-ybl" kind="show" id="KaE-k6-Bob"/>
+                                </connections>
+                            </button>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LaS-td-Dpr">
+                                <rect key="frame" x="0.0" y="44" width="375" height="603"/>
+                                <connections>
+                                    <segue destination="Cwc-wg-lhS" kind="show" id="uxS-XP-hdj"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LaS-td-Dpr" firstAttribute="leading" secondItem="gMV-dt-gpD" secondAttribute="leading" id="R3t-1i-fkc"/>
+                            <constraint firstItem="6hH-sv-Hau" firstAttribute="top" secondItem="LaS-td-Dpr" secondAttribute="bottom" id="R73-ub-UnF"/>
+                            <constraint firstAttribute="trailing" secondItem="LaS-td-Dpr" secondAttribute="trailing" id="RFz-GB-JRU"/>
+                            <constraint firstItem="9qt-rh-dbm" firstAttribute="top" secondItem="gMV-dt-gpD" secondAttribute="top" constant="64" id="TSb-DX-w3N"/>
+                            <constraint firstItem="LaS-td-Dpr" firstAttribute="top" secondItem="gMV-dt-gpD" secondAttribute="top" constant="64" id="es8-UN-g8y"/>
+                            <constraint firstItem="9qt-rh-dbm" firstAttribute="leading" secondItem="gMV-dt-gpD" secondAttribute="leading" id="vQK-de-Lib"/>
+                            <constraint firstItem="6hH-sv-Hau" firstAttribute="top" secondItem="9qt-rh-dbm" secondAttribute="bottom" id="x39-AC-TO5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Menu" id="Jaz-CG-QR5" propertyAccessControl="none">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="if_menu-alt_134216" id="Dvd-jI-QQD">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="SideBar:" destination="UfX-RZ-6fU" id="yqr-sR-nwF"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="X8B-qB-SvY"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="leftspace" destination="R3t-1i-fkc" id="cVx-S2-tbe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6xA-7L-KBR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="511" y="-579"/>
+        </scene>
+        <!--MapMenu-->
+        <scene sceneID="odB-vh-q4n">
+            <objects>
+                <viewController title="MapMenu" id="eLU-zv-ybl" customClass="ViewController" customModule="CinemaBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vRA-Wo-zmJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="XdC-96-qYI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TWU-vz-oYf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PdG-fM-eCd">
+                                <rect key="frame" x="0.0" y="44" width="118" height="603"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="qce-j7-qgE"/>
+                                </constraints>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsh-Kd-WXJ">
+                                <rect key="frame" x="16" y="207" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Movies"/>
+                                <connections>
+                                    <segue destination="UfX-RZ-6fU" kind="show" id="bZ5-VE-vve"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6W-0h-pzD">
+                                <rect key="frame" x="16" y="266" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Booking"/>
+                                <connections>
+                                    <segue destination="47h-NT-bkw" kind="show" id="Nxx-tu-heq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5CZ-pA-rAh">
+                                <rect key="frame" x="16" y="318" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Contact"/>
+                                <connections>
+                                    <segue destination="kr2-4i-REC" kind="show" id="fYa-GY-aof"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAH-zY-gxg">
+                                <rect key="frame" x="27" y="372" width="51" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Menu"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="arB-fO-b95"/>
+                                </connections>
+                            </button>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Kv-u7-nDL">
+                                <rect key="frame" x="0.0" y="44" width="375" height="603"/>
+                                <connections>
+                                    <segue destination="x4d-bD-l5J" kind="show" id="4pN-97-2Yl"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9Kv-u7-nDL" secondAttribute="trailing" id="1HR-lc-BKH"/>
+                            <constraint firstItem="XdC-96-qYI" firstAttribute="top" secondItem="PdG-fM-eCd" secondAttribute="bottom" id="WuG-5n-V1z"/>
+                            <constraint firstItem="PdG-fM-eCd" firstAttribute="top" secondItem="TWU-vz-oYf" secondAttribute="top" constant="64" id="Xhp-fr-BNV"/>
+                            <constraint firstItem="PdG-fM-eCd" firstAttribute="leading" secondItem="TWU-vz-oYf" secondAttribute="leading" id="bY5-Wi-cfY"/>
+                            <constraint firstItem="XdC-96-qYI" firstAttribute="top" secondItem="9Kv-u7-nDL" secondAttribute="bottom" id="iX0-vj-jk9"/>
+                            <constraint firstItem="9Kv-u7-nDL" firstAttribute="leading" secondItem="TWU-vz-oYf" secondAttribute="leading" id="ixS-dQ-WKE"/>
+                            <constraint firstItem="9Kv-u7-nDL" firstAttribute="top" secondItem="TWU-vz-oYf" secondAttribute="top" constant="64" id="uih-gf-mMJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Menu" id="Qfh-Dx-hto" propertyAccessControl="none">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="if_menu-alt_134216" id="8iI-pi-lAA">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="SideBar:" destination="eLU-zv-ybl" id="3ke-b2-0gf"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="DUb-nE-ISs"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="leftspace" destination="ixS-dQ-WKE" id="1k7-vE-7jb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oWe-mh-lSK" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1701.5999999999999" y="-556.37181409295351"/>
+        </scene>
+        <!--BookingMenu-->
+        <scene sceneID="973-wg-l0J">
+            <objects>
+                <viewController title="BookingMenu" id="47h-NT-bkw" customClass="ViewController" customModule="CinemaBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZN3-DH-hFv"/>
+                        <viewControllerLayoutGuide type="bottom" id="4uw-Km-gHy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XUw-0p-qeW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bS5-B4-UQG">
+                                <rect key="frame" x="0.0" y="44" width="118" height="603"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="LUz-Xr-TrF"/>
+                                </constraints>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5A-1w-jwt">
+                                <rect key="frame" x="16" y="207" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Movies"/>
+                                <connections>
+                                    <segue destination="UfX-RZ-6fU" kind="show" id="G4I-q9-PXH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYm-UP-8GZ">
+                                <rect key="frame" x="16" y="266" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Menu"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="jI0-mP-S24"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsv-80-eYr">
+                                <rect key="frame" x="16" y="318" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Contact"/>
+                                <connections>
+                                    <segue destination="kr2-4i-REC" kind="show" id="lO2-EA-VnL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MqG-4m-pOT">
+                                <rect key="frame" x="37" y="364" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Map"/>
+                                <connections>
+                                    <segue destination="eLU-zv-ybl" kind="show" id="wQ6-FO-ZnD"/>
+                                </connections>
+                            </button>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e9N-Tk-15A">
+                                <rect key="frame" x="0.0" y="44" width="375" height="603"/>
+                                <connections>
+                                    <segue destination="mL6-DU-zkb" kind="show" id="PqG-Au-xPY"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bS5-B4-UQG" firstAttribute="top" secondItem="XUw-0p-qeW" secondAttribute="top" constant="64" id="1i9-rU-6s3"/>
+                            <constraint firstItem="e9N-Tk-15A" firstAttribute="top" secondItem="XUw-0p-qeW" secondAttribute="top" constant="64" id="9ym-PT-WiR"/>
+                            <constraint firstItem="e9N-Tk-15A" firstAttribute="leading" secondItem="XUw-0p-qeW" secondAttribute="leading" id="Dtu-B9-asO"/>
+                            <constraint firstAttribute="trailing" secondItem="e9N-Tk-15A" secondAttribute="trailing" id="I5S-PT-axY"/>
+                            <constraint firstItem="4uw-Km-gHy" firstAttribute="top" secondItem="e9N-Tk-15A" secondAttribute="bottom" id="Rox-q7-hbT"/>
+                            <constraint firstItem="4uw-Km-gHy" firstAttribute="top" secondItem="bS5-B4-UQG" secondAttribute="bottom" id="iLH-hr-6Ig"/>
+                            <constraint firstItem="bS5-B4-UQG" firstAttribute="leading" secondItem="XUw-0p-qeW" secondAttribute="leading" id="kDM-Yb-5yh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Menu" id="em5-Tu-u38" propertyAccessControl="none">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="if_menu-alt_134216" id="MNJ-gg-vDF">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="SideBar:" destination="47h-NT-bkw" id="k1b-kt-fki"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="rCB-u2-4bU"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="leftspace" destination="Dtu-B9-asO" id="ROL-4H-CQ6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vyj-41-4xY" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="510" y="-1221"/>
+        </scene>
+        <!--ContactMenu-->
+        <scene sceneID="26I-dX-99S">
+            <objects>
+                <viewController title="ContactMenu" id="kr2-4i-REC" customClass="ViewController" customModule="CinemaBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4GW-JR-aCE"/>
+                        <viewControllerLayoutGuide type="bottom" id="jZj-o3-kb3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AVe-uc-K9p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zow-xm-G4S">
+                                <rect key="frame" x="0.0" y="44" width="118" height="603"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="Eos-sx-lX6"/>
+                                </constraints>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNa-ts-Auh">
+                                <rect key="frame" x="16" y="207" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Movies"/>
+                                <connections>
+                                    <segue destination="UfX-RZ-6fU" kind="show" id="fRl-dk-Sef"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GO2-tc-pmD">
+                                <rect key="frame" x="16" y="266" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Booking"/>
+                                <connections>
+                                    <segue destination="47h-NT-bkw" kind="show" id="mMZ-m2-3EL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CfQ-ml-ZjQ">
+                                <rect key="frame" x="16" y="318" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Menu"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="lkh-4z-Gy5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gc5-B3-tgj">
+                                <rect key="frame" x="37" y="364" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Map"/>
+                                <connections>
+                                    <segue destination="eLU-zv-ybl" kind="show" id="tkp-Cs-3mf"/>
+                                </connections>
+                            </button>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jbR-CM-Uzy">
+                                <rect key="frame" x="0.0" y="44" width="375" height="603"/>
+                                <connections>
+                                    <segue destination="iRN-Wr-WdT" kind="show" id="PlW-c0-qut"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zow-xm-G4S" firstAttribute="top" secondItem="AVe-uc-K9p" secondAttribute="top" constant="64" id="7QJ-VT-8ng"/>
+                            <constraint firstItem="jbR-CM-Uzy" firstAttribute="leading" secondItem="AVe-uc-K9p" secondAttribute="leading" id="BwE-qC-IeW"/>
+                            <constraint firstAttribute="trailing" secondItem="jbR-CM-Uzy" secondAttribute="trailing" id="K0R-69-ABM"/>
+                            <constraint firstItem="jZj-o3-kb3" firstAttribute="top" secondItem="zow-xm-G4S" secondAttribute="bottom" id="Pxz-Jz-QII"/>
+                            <constraint firstItem="jbR-CM-Uzy" firstAttribute="top" secondItem="AVe-uc-K9p" secondAttribute="top" constant="64" id="b7T-yX-7C4"/>
+                            <constraint firstItem="zow-xm-G4S" firstAttribute="leading" secondItem="AVe-uc-K9p" secondAttribute="leading" id="f2w-IC-urZ"/>
+                            <constraint firstItem="jZj-o3-kb3" firstAttribute="top" secondItem="jbR-CM-Uzy" secondAttribute="bottom" id="wR0-OR-GWz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Menu" id="Ykv-ON-rdX" propertyAccessControl="none">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="if_menu-alt_134216" id="q7B-9N-x9Q">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="SideBar:" destination="kr2-4i-REC" id="4mn-hD-NmR"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="upE-1i-EHc"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="leftspace" destination="BwE-qC-IeW" id="6Nj-zm-p0j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aGY-Lk-QdD" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1734" y="-1232"/>
+        </scene>
     </scenes>
     <resources>
         <image name="crop" width="321" height="232"/>
         <image name="if_menu-alt_134216" width="28" height="28"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="voe-pR-Cqi"/>
+        <segue reference="jI0-mP-S24"/>
+        <segue reference="FLn-u6-OOe"/>
+        <segue reference="1ZK-yu-yzy"/>
+        <segue reference="xHJ-rp-DYa"/>
+        <segue reference="fze-XT-hf1"/>
     </inferredMetricsTieBreakers>
 </document>
