@@ -281,8 +281,8 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rck-LM-GvF">
                                 <rect key="frame" x="0.0" y="47" width="375" height="753"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tFw-W5-KVT">
-                                        <rect key="frame" x="0.0" y="72" width="375" height="800"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tFw-W5-KVT">
+                                        <rect key="frame" x="0.0" y="136" width="375" height="800"/>
                                         <subviews>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="19p-LZ-8tQ">
                                                 <rect key="frame" x="204" y="79" width="97" height="30"/>
@@ -395,13 +395,17 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBg-eU-mTY">
+                                                <rect key="frame" x="284" y="505" width="35" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Book"/>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="IYS-l4-Xh3" firstAttribute="leading" secondItem="8mr-4f-6F1" secondAttribute="trailing" constant="83" id="16s-nc-wuF"/>
                                             <constraint firstItem="t9B-wh-Dga" firstAttribute="top" secondItem="8mr-4f-6F1" secondAttribute="bottom" constant="40" id="1ep-Hv-0ec"/>
                                             <constraint firstItem="FIC-1v-PNH" firstAttribute="top" secondItem="5pG-8X-6cA" secondAttribute="bottom" constant="31" id="3Rz-nN-RZ4"/>
-                                            <constraint firstAttribute="height" constant="800" id="3hw-0H-Nwo"/>
                                             <constraint firstItem="HVO-eJ-0G5" firstAttribute="bottom" secondItem="7Hl-L3-zNl" secondAttribute="bottom" id="3yK-JJ-su2"/>
                                             <constraint firstItem="cTO-eh-yfw" firstAttribute="bottom" secondItem="xIC-jN-XT2" secondAttribute="bottom" id="5CS-Iw-7zv"/>
                                             <constraint firstItem="8mr-4f-6F1" firstAttribute="top" secondItem="IUU-Zv-8P6" secondAttribute="bottom" constant="24" id="8a4-Kz-4Fn"/>
@@ -409,7 +413,6 @@
                                             <constraint firstItem="IYS-l4-Xh3" firstAttribute="bottom" secondItem="IUU-Zv-8P6" secondAttribute="bottom" id="D4h-bF-clS"/>
                                             <constraint firstItem="19p-LZ-8tQ" firstAttribute="bottom" secondItem="QIE-tF-oBu" secondAttribute="bottom" id="EAM-D7-8Qa"/>
                                             <constraint firstItem="HVO-eJ-0G5" firstAttribute="leading" secondItem="7Hl-L3-zNl" secondAttribute="trailing" constant="75" id="ENJ-67-DoT"/>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="800" id="FbU-Ab-k5q"/>
                                             <constraint firstItem="IYS-l4-Xh3" firstAttribute="trailing" secondItem="HVO-eJ-0G5" secondAttribute="trailing" id="GZ0-eN-M8y"/>
                                             <constraint firstItem="xIC-jN-XT2" firstAttribute="centerX" secondItem="IUU-Zv-8P6" secondAttribute="centerX" id="GgH-8c-pOT"/>
                                             <constraint firstItem="IYS-l4-Xh3" firstAttribute="leading" secondItem="cTO-eh-yfw" secondAttribute="leading" id="KZA-gE-Agi"/>
@@ -426,6 +429,7 @@
                                             <constraint firstItem="nqp-uM-hgu" firstAttribute="leading" secondItem="t9B-wh-Dga" secondAttribute="trailing" constant="79" id="aVO-To-tGg"/>
                                             <constraint firstItem="IYS-l4-Xh3" firstAttribute="leading" secondItem="ySY-gR-lfr" secondAttribute="leading" id="ad9-PV-13c"/>
                                             <constraint firstItem="IYS-l4-Xh3" firstAttribute="trailing" secondItem="7Tk-k8-IiB" secondAttribute="trailing" id="agy-gs-zed"/>
+                                            <constraint firstAttribute="height" constant="800" id="bR6-jX-Jh9"/>
                                             <constraint firstItem="IYS-l4-Xh3" firstAttribute="trailing" secondItem="Zsa-ud-GOk" secondAttribute="trailing" id="btN-am-eOS"/>
                                             <constraint firstItem="xIC-jN-XT2" firstAttribute="top" secondItem="FIC-1v-PNH" secondAttribute="bottom" constant="26" id="dhl-UC-sLb"/>
                                             <constraint firstItem="5pG-8X-6cA" firstAttribute="top" secondItem="0Lg-TC-hub" secondAttribute="bottom" constant="27" id="dpx-vq-sr7"/>
@@ -457,19 +461,17 @@
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="tFw-W5-KVT" firstAttribute="centerX" secondItem="rck-LM-GvF" secondAttribute="centerX" id="1RH-Ra-lhr"/>
                                     <constraint firstItem="3tr-cc-ZM5" firstAttribute="leading" secondItem="rck-LM-GvF" secondAttribute="leading" constant="108" id="3ly-3W-ulG"/>
-                                    <constraint firstAttribute="bottom" secondItem="tFw-W5-KVT" secondAttribute="bottom" constant="-183" id="GUf-Cf-A8m"/>
                                     <constraint firstItem="3tr-cc-ZM5" firstAttribute="top" secondItem="rck-LM-GvF" secondAttribute="top" constant="23" id="UR1-Hp-Y6N"/>
                                     <constraint firstAttribute="trailing" secondItem="3tr-cc-ZM5" secondAttribute="trailing" constant="109" id="glB-0Q-G8S"/>
                                     <constraint firstItem="tFw-W5-KVT" firstAttribute="leading" secondItem="rck-LM-GvF" secondAttribute="leading" id="mIW-1e-Vn9"/>
                                     <constraint firstAttribute="trailing" secondItem="tFw-W5-KVT" secondAttribute="trailing" id="mK8-Sl-92H"/>
-                                    <constraint firstItem="tFw-W5-KVT" firstAttribute="top" secondItem="rck-LM-GvF" secondAttribute="top" constant="136" id="veZ-oj-Zyy"/>
+                                    <constraint firstItem="tFw-W5-KVT" firstAttribute="top" secondItem="3tr-cc-ZM5" secondAttribute="bottom" constant="91" id="xug-zE-DUc"/>
+                                    <constraint firstAttribute="bottom" secondItem="tFw-W5-KVT" secondAttribute="bottom" constant="-247" id="y3r-lz-6hc"/>
                                 </constraints>
                             </scrollView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v83-70-qee">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v83-70-qee">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Booking" id="hE0-qb-Z7f">
                                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="toy-8y-FGH"/>
@@ -480,10 +482,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="rck-LM-GvF" secondAttribute="trailing" id="7bu-4g-IEB"/>
-                            <constraint firstItem="tFw-W5-KVT" firstAttribute="width" secondItem="u5F-lT-2C1" secondAttribute="width" id="EEt-HT-Ztl"/>
-                            <constraint firstItem="w5f-U5-66m" firstAttribute="top" secondItem="rck-LM-GvF" secondAttribute="bottom" id="SZj-H2-6mL"/>
+                            <constraint firstItem="rck-LM-GvF" firstAttribute="top" secondItem="v83-70-qee" secondAttribute="bottom" constant="3" id="gBZ-6m-4ev"/>
                             <constraint firstItem="rck-LM-GvF" firstAttribute="leading" secondItem="u5F-lT-2C1" secondAttribute="leading" id="gTe-jb-t4D"/>
+                            <constraint firstItem="rck-LM-GvF" firstAttribute="bottom" secondItem="w5f-U5-66m" secondAttribute="top" id="jyS-om-f69"/>
+                            <constraint firstItem="rck-LM-GvF" firstAttribute="leading" secondItem="v83-70-qee" secondAttribute="leading" id="kBu-dG-meg"/>
                             <constraint firstItem="rck-LM-GvF" firstAttribute="top" secondItem="u5F-lT-2C1" secondAttribute="top" constant="47" id="orh-a7-mq1"/>
+                            <constraint firstItem="rck-LM-GvF" firstAttribute="trailing" secondItem="v83-70-qee" secondAttribute="trailing" id="wMK-72-P0u"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -540,7 +544,7 @@
                 <navigationController autoresizesArchivedViewToFullSize="NO" automaticallyAdjustsScrollViewInsets="NO" id="9o4-37-NPh" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Ua-c7-Cfe">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="2Ua-c7-Cfe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

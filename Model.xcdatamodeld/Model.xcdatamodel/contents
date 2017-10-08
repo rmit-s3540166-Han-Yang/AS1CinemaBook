@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+    <entity name="Cus" representedClassName="MyCus.Cus" syncable="YES">
+        <attribute name="cusCinema" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cusClass" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cusDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cusMovie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cusName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cusNumTickets" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cusSeats" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cusTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cusType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Cus" positionX="-63" positionY="-18" width="128" height="180"/>
+    </elements>
 </model>
